@@ -61,3 +61,22 @@
 - name: 'type: ci'
   color: 'bfd4f2'
   description: 'CI 設定の追加・修正作業'
+
+# Dependabot 連携
+- name: dependencies
+  color: '0366d6'
+  description: '依存関係の更新'
+
+# SemVer ラベル（接頭辞なし固定。Dependabot が更新種別を自動付与する）
+- name: patch
+  color: '0e8a16'
+  description: 'パッチ更新（後方互換のバグ修正）'
+
+- name: minor
+  color: 'fbca04'
+  description: 'マイナー更新（後方互換の機能追加）'
+
+- name: major
+  color: 'd93f0b'
+  description: 'メジャー更新（破壊的変更の可能性あり）'
+
