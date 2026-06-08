@@ -1,0 +1,55 @@
+# labels.yml
+
+# priority
+# 優先度
+- name: 'priority: high'
+  color: 'b60205'
+  description: '優先度が高く、早急な対応が必要なもの'
+
+- name: 'priority: low'
+  color: '0e8a16'
+  description: '優先度が低く、後回しにできるもの'
+
+# area
+# 影響範囲・領域
+- name: 'area: ci'
+  color: '1d76db'
+  description: 'CI パイプラインや自動化処理に関するもの'
+
+- name: 'area: docs'
+  color: '0075ca'
+  description: 'ドキュメントの追加・修正に関するもの'
+
+- name: 'area: deps'
+  color: '0366d6'
+  description: '依存パッケージの更新・管理に関するもの'
+
+- name: 'area: test'
+  color: 'c5def5'
+  description: 'テストコードやテスト基盤に関するもの'
+
+- name: 'area: infra'
+  color: '5319e7'
+  description: 'インフラ・実行環境・構成に関するもの'
+
+- name: 'area: security'
+  color: 'd93f0b'
+  description: 'セキュリティ脆弱性や対策に関するもの'
+
+# type
+# 種別補助
+- name: 'type: refactor'
+  color: 'fbca04'
+  description: '挙動を変えないコード構造の改善'
+
+- name: 'type: chore'
+  color: 'fef2c0'
+  description: 'ビルド・設定・雑務など補助的な作業'
+
+- name: 'type: test'
+  color: 'bfdadc'
+  description: 'テストの追加・修正作業'
+
+- name: 'type: ci'
+  color: 'bfd4f2'
+  description: 'CI 設定の追加・修正作業'
