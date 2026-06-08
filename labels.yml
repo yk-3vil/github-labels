@@ -38,6 +38,14 @@
 
 # type
 # 種別補助
+- name: 'type: bug'
+  color: 'd73a4a'
+  description: 'バグや不具合の報告・修正に関するもの'
+
+- name: 'type: enhancement'
+  color: 'a2eeef'
+  description: '新機能の追加や既存機能の改善に関するもの'
+
 - name: 'type: refactor'
   color: 'fbca04'
   description: '挙動を変えないコード構造の改善'
