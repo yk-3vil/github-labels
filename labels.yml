@@ -62,6 +62,12 @@
   color: 'bfd4f2'
   description: 'CI 設定の追加・修正作業'
 
+# Other
+# 調査・検証の知見を保管するための参照ラベル
+- name: knowledge
+  color: '5319e7'
+  description: '調査・検証の結果をまとめた、後から参照する知見'
+
 # Dependabot 連携
 - name: dependencies
   color: '0366d6'
