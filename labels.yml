@@ -62,6 +62,10 @@
   color: 'bfd4f2'
   description: 'CI 設定の追加・修正作業'
 
+- name: 'type: maintenance'
+  color: 'd4c5f9'
+  description: '定期的な保守・メンテナンス作業'
+
 # Other
 # 調査・検証の知見を保管するための参照ラベル
 - name: knowledge
